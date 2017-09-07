@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Tags"
+description: "哈哈，你找到了我的文章基因库"  
+header-img: "img/Red-Brown.jpg"  
+---
+
+
 ## 说明
 
 此博客 fork 自 [Azeril](http://azeril.me/)，感谢。
@@ -34,9 +42,14 @@
 	- 增加 Google Analytics
 	* 修订 Gavatar 地址
 	* 增加作品集 works
-	* 缩短首页摘要为 70 字
+	* 缩短首页摘要为 70 __字__
 	* 多说替换成 disqus
 	* 置换字体
 
 
+```
+|||||||||
+|||||||||
+
+```
 

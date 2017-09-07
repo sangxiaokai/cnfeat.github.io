@@ -18,7 +18,7 @@ description: "陈素封"
             {{ post.content | strip_html | truncate:140 }}
         </div>
     </a>
-    <p class="post-meta">Posted on {{ post.date | date: "%Y-%m-%d" }}</p>
+    <p class="post-meta">发布时间 {{ post.date | date: "%Y-%m-%d" }}</p>
 </div>
 
 <hr>
@@ -29,12 +29,12 @@ description: "陈素封"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 上一页</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 &rarr;</a>
     </li>
     {% endif %}
 </ul>
