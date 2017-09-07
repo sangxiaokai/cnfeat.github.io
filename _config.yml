@@ -1,27 +1,24 @@
 # Site settings
-title: <?php echo("桑小凯"); 
+title: echo("桑小凯"); 
 header-img: "img/Xacebook.jpg"
 tagline: "cn"  
-description: "陈素封|读而立·写而生"  
+description: "sangxiaokai/我只是一个想做大事的开发者"  
 baseurl: "public"
-url: "http://www.cnfeat.com"  
+url: "https://sangxiaokai.github.io"  
 
 # About/contact
 owner: 
-  name: " CNFeat"
-  email: CnFeat@gmail.com
-  bio: "每天写1000字改变自己"
+  name: " 桑小凯 qq 307060248"
+  email: 307060248@qq.com
+  bio: "有些人只是想得太多做的太少"
 
 # Data
-gavatar: http://openmindclub.qiniudn.com/omt/GavatarCNFeat.png
+gavatar: https://avatars0.githubusercontent.com/u/3350034?v=4&s=460
 favicon: img/favicon.ico
 
-douban_username:  cnfeat
-twitter_username: feat
-github_username: cnfeat
-facebook_username: 
-weibo_username: cnfeat 
-zhihu_username: feat
+
+github_username: sangxiaokai
+
 
 # Build settings  
 # use Github Flavored Markdown !important  
