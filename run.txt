@@ -1,0 +1,8 @@
+
+
+$ gem install jekyll
+记住把USERNAME改为你的GitHub上的用户名。
+
+ 
+$ cd USERNAME.github.io
+$ jekyll serve
